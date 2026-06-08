@@ -1,4 +1,0 @@
-"Test Result on MaPU, check point /root/sqwu/UIR/weights/UFO-ours-7-500/MaPU_epoch_163.pth, testing data /root/sqwu/data/UFO-120/test"
-"PSNR: 22.889470434188844, SSIM: 0.7535514349738757, UCIQUE: 0.42300137877464294"
-"Test Result on MaPU, check point /root/sqwu/UIR/weights/UFO-ours-7-500/MaPU_epoch_163.pth, testing data /root/sqwu/data/UFO-120/test"
-"PSNR: 22.889470434188844, SSIM: 0.7535514349738757, UCIQUE: 0.42300137877464294"
