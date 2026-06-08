@@ -1,0 +1,6 @@
+"Test Result on MaPU, check point /root/sqwu/UIR/weights/EUVP-ours-12-500/MaPU_epoch_393.pth, testing data /root/sqwu/data-/EUVP/test"
+"PSNR: 25.72098352432251, SSIM: 0.8193412113189698, UCIQUE: 0.42016780376434326"
+"Test Result on MaPU, check point /root/sqwu/UIR/weights/EUVP-ours-12-500/MaPU_epoch_393.pth, testing data /root/sqwu/data/EUVP/test"
+"PSNR: 29.16941721725464, SSIM: 0.8950425888299942, UCIQUE: 0.4530677795410156"
+"Test Result on MaPU, check point /root/sqwu/UIR/weights/EUVP-ours-12-500/MaPU_epoch_393.pth, testing data /root/sqwu/data/EUVP/test"
+"PSNR: 27.884038074493407, SSIM: 0.8801780662536621, UCIQUE: 0.4531190097332001"

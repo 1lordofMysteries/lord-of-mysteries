@@ -77,8 +77,8 @@ class Config(object):
         self._C.TRAINING.VAL_AFTER_EVERY = 3
         self._C.TRAINING.RESUME = False
         self._C.TRAINING.WEIGHT = None
-        self._C.TRAINING.TRAIN_DIR = 'images_dir/train'
-        self._C.TRAINING.VAL_DIR = 'images_dir/val'
+        self._C.TRAINING.TRAIN_DIR = '/root/autodl-tmp/sqwu/data/new_UIEBD/train'
+        self._C.TRAINING.VAL_DIR = '/root/autodl-tmp/sqwu/data/new_UIEBD/test'
         self._C.TRAINING.SAVE_DIR = 'checkpoints'
         self._C.TRAINING.PS_W = 512
         self._C.TRAINING.PS_H = 512
@@ -88,7 +88,7 @@ class Config(object):
         self._C.TESTING = CN()
         self._C.TESTING.INPUT = 'input'
         self._C.TESTING.TARGET = 'target'
-        self._C.TESTING.VAL_DIR = 'images_dir/test'
+        self._C.TESTING.VAL_DIR = '/root/autodl-tmp/sqwu/data/new_UIEBD/test'
         self._C.TESTING.WEIGHT = None
         self._C.TESTING.SAVE_IMAGES = True
         self._C.TESTING.RESULT_DIR = 'result'

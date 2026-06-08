@@ -20,7 +20,7 @@ warnings.filterwarnings('ignore')
 
 
 def test():
-    opt = Config('config.yml')
+    opt = Config('config_uie.yml')
     seed_everything(opt.OPTIM.SEED)
 
     accelerator = Accelerator()

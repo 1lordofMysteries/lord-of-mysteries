@@ -1,0 +1,2 @@
+"Test Result on MaPU, check point /root/autodl-tmp/sqwu/UIR/weights/UFO-ours-2-500/MaPU_epoch_428.pth, testing data /root/autodl-tmp/sqwu/data/UFO-120/test"
+"PSNR: 25.760863701502483, SSIM: 0.8230209608872732, UCIQUE: 0.45164912939071655"

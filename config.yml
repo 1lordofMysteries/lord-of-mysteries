@@ -17,23 +17,23 @@ OPTIM:
 TRAINING:
   VAL_AFTER_EVERY: 1
   RESUME: False
-  WEIGHT: ''
+  WEIGHT: '/root/autodl-tmp/sqwu/UIR/weights'
   PS_W: 256
   PS_H: 256
-  TRAIN_DIR: '' # path to training data
-  VAL_DIR: ''     # path to validation data
-  SAVE_DIR: ''          # path to save models and images
+  TRAIN_DIR: '/root/autodl-tmp/sqwu/data/EUVP/train' # path to training data
+  VAL_DIR: '/root/autodl-tmp/sqwu/data/EUVP/test'     # path to validation data
+  SAVE_DIR: '/root/autodl-tmp/sqwu/UIR/result'          # path to save models and images
   ORI: False
-  LOG_FILE: ''
+  LOG_FILE: 'train_log.txt'
 
 TESTING:
   INPUT: 'input'
   TARGET: 'target'
-  VAL_DIR: ''     # path to testing data
-  WEIGHT: ''
+  VAL_DIR: '/root/autodl-tmp/sqwu/data/EUVP/test'     # path to testing data
+  WEIGHT: '/root/autodl-tmp/sqwu/UIR/result/UIR_PolyKernel_epoch_12.pth'
   SAVE_IMAGES: True
-  RESULT_DIR: ''
-  LOG_FILE: ''
+  RESULT_DIR: '/root/autodl-tmp/sqwu/UIR/output/EUVP'
+  LOG_FILE: 'test.txt'
 
 LOG:
   LOG_DIR: ''
